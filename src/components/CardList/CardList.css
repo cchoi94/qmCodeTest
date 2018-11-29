@@ -1,0 +1,45 @@
+.CardContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.Card {
+    margin: 0.5em 0em;
+    width: 90vw;
+}
+
+.CardSummary {
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+}
+
+.ExpandContainer {
+    display: flex;
+    justify-content: space-around
+}
+
+.ExpansionPanelDetails{
+    display: block !important;
+}
+
+.ExpandCreatorBox, .ExpandInfoBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.ExpandInfoBox {
+    margin: 0 1em 0 1em;
+    justify-content: space-between;
+}
+
+.AssigneeContainer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.AssigneeContainer img{
+    width: 40%;
+    height: 50%;
+    margin: 1em 1em 0 0;
+}
